@@ -2244,31 +2244,27 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
-		/* background: url('images/fulls/Iltizam\ Studio.png'), url('../../images/fulls/Iltizam\ Studio.png'); */
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat;
+		background: linear-gradient(0deg, rgba(155, 215, 230, 0.767), rgba(0, 105, 119, 0.9)), url('/images/fulls/Iltizam\ Studio.png');
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat:no-repeat;
 	}
 
 /* One */
-
-	#one {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
-	}
+#one {
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
 
 /* Two */
 
-	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
-	}
+#two {
+	background: linear-gradient(0deg, rgb(134, 134, 134), rgba(50, 161, 165, 1));
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: top left, center center;
+}
 
 /* Contact */
 
